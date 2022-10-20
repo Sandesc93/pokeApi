@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './styles/Pokemon404.css'
+import './styles/Pokemon404'
 
 const Pokemon404 = () => {
   return (

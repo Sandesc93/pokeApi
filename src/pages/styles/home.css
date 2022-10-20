@@ -12,12 +12,13 @@
 .pokedex__img{
     width: 100%;
     max-width: 600px;
-
 }
 
 .pokedex__head{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .pokedex__subt{
@@ -25,6 +26,16 @@
     font-size: 2.4rem;
     color: #eb7777;
     margin-bottom: 3px;
+}
+
+.pokedex__form{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .pokedex__input{

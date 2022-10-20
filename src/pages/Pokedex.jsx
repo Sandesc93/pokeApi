@@ -49,7 +49,7 @@ const Pokedex = () => {
   const finalPoke = page * pokePerPage
 
   return (
-    <>
+    <div>
     {
       isLoading ?
       
@@ -90,7 +90,7 @@ const Pokedex = () => {
         pagesLength={pokemons && Math.ceil(pokemons.length / pokePerPage)}
       />
     </div>}
-    </>
+    </div>
   )
 }
 

@@ -40,7 +40,7 @@ const handleReturn = () =>{
 }
 
 return (
-    <>
+    <div>
     {
         isLoading2?
         <IsLoading2/>
@@ -116,7 +116,7 @@ return (
 
     </article>
     }
-    </>
+    </div>
   )
 }
 

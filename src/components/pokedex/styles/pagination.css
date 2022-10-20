@@ -30,6 +30,7 @@
 .pag__page:hover{
     filter: brightness(1.05);
     transform: scale(1.2);
+    font-weight: 800;
     transition: 50ms ease-in;
 }
 

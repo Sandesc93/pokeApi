@@ -58,7 +58,7 @@ const Pokedex = () => {
       :
       
       <div className='pokemons'>
-      <img className='pokemons__img' src="./src/assets/pokedex.png" alt="" />
+      <img className='pokemons__img' src="./pokeapi.png" alt="" />
       <p className='pokemons__p'><span className='pokemons__span'>Welcome {userName}</span>, here you can find your favorite pokemon.</p>
       <aside className='pokemons__aside'>
         <InputSearch />
